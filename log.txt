@@ -1,0 +1,25 @@
+# AIoT Project Development Log - 2026-03-25
+
+## 1. Project Initialization
+- Created a complete Python AIoT simulation system in `c:\Users\黃喻琦\Downloads\HW1`.
+- Repository initialized: https://github.com/chhcgrrace/0325Aiot.git
+
+## 2. Component Implementation
+- **Flask Backend (`app.py`)**: Handles `/sensor` POST requests and stores data in SQLite `aiotdb.db`. Configured for Taiwan Time (pytz).
+- **ESP32 Simulator (`esp32_generator.py`)**: Generates fake DHT11 data and WiFi metadata every 2 seconds.
+- **Streamlit Dashboard (`dashboard.py`)**: Real-time visualization of temperature/humidity trends and KPIs. Added a "Mock Data" mode for cloud demo.
+
+## 3. Environment Setup & Deployment
+- Set up Python virtual environment (`venv`).
+- Resolved Streamlit Cloud deployment errors by:
+  - Correcting Python version to 3.12 (from the experimental 3.14).
+  - Relaxing package version constraints in `requirements.txt`.
+- Successfully deployed to: https://0325aiot-hkrg4zclkswrtkvmdp3zg3.streamlit.app/
+
+## 4. Documentation & Assets
+- Generated Chinese `README.md` with system architecture, setup instructions, and live links.
+- Included user-provided dashboard screenshot (`動態板板.jpg`) in the repository and README.
+- Final commit and push of all source code, assets, and this development log.
+
+---
+*Assisted by Antigravity AI @ Google DeepMind.*
