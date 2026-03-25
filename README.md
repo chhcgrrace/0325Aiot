@@ -1,4 +1,4 @@
-# 2026AiotHW1 - AIoT 本地端測試平台與 Live Demo
+# 0325Aiot - AIoT 本地端測試平台與 Live Demo
 
 這是一個完整的 Python AIoT 模擬專案，涵蓋感測器資料模擬生成、透過後端 API 接收並儲存在 SQLite，最後在 Streamlit 網頁上呈現即時動態的資料面板。
 
