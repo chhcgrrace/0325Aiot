@@ -1,5 +1,9 @@
 # 0325Aiot - AIoT 本地端測試平台與 Live Demo
 
+![Dashboard Screenshot](dashboard_screenshot.png)
+
+### 🚀 [點此查看雲端實時儀表板 (Live Demo)](https://0325aiot-hkrg4zclkswrtkvmdp3zg3.streamlit.app/)
+
 這是一個完整的 Python AIoT 模擬專案，涵蓋感測器資料模擬生成、透過後端 API 接收並儲存在 SQLite，最後在 Streamlit 網頁上呈現即時動態的資料面板。
 
 ## 系統架構
