@@ -1,6 +1,6 @@
 # 0325Aiot - AIoT 本地端測試平台與 Live Demo
 
-![Dashboard Screenshot](dashboard_screenshot.png)
+![Dashboard Screenshot](動態板板.jpg)
 
 ### 🚀 [點此查看雲端實時儀表板 (Live Demo)](https://0325aiot-hkrg4zclkswrtkvmdp3zg3.streamlit.app/)
 
